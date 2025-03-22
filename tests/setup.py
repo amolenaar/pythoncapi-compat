@@ -28,6 +28,7 @@ if not MSVC:
     COMMON_FLAGS.extend((
         # Treat warnings as error
         '-Werror',
+        '-Wnested-externs',
         # Enable all warnings
         '-Wall', '-Wextra',
         # Extra warnings
